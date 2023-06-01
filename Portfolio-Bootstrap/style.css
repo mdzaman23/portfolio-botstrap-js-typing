@@ -1,0 +1,364 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;padding: 0; box-sizing: border-box;
+    text-decoration: none;outline: none; border: none;
+    text-transform: capitalize;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    background: #f5f5f5;
+}
+.nav-link{
+color: #fdf9f9;
+font-size: 1rem;
+font-weight: 700;
+cursor: pointer;
+text-decoration: none;
+margin-right: 40px;
+
+}
+.nav-link:hover {
+    color: #fffefe;
+    background: #ff7373;
+
+}
+
+  /* main section */
+
+    .main{
+background: url(img/z.png ) no-repeat;
+
+box-size: cover;
+width: 100%;
+height: 95vh;
+    } 
+
+    .main h3{
+        font-size: 4.4rem;
+        font-weight: 700;
+    } 
+    .main h6{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        line-height: 1;
+        border-bottom: 3px solid red;
+        width: 47%;
+    }
+
+    .main .bt1{
+        height: 55px;
+        width: 138px;
+        background: #ff0404;
+        color: #ffffff;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+    } 
+
+    .main .bt1:hover{
+        background-color: #dc5f5f;
+        transition: 0.5s;
+    }
+    .main .bt2{
+        height: 55px;
+        width: 138px;
+        background:transparent;
+        color: #ff0000;
+        outline: none;
+        border: 1px solid red;
+        font-weight: bold;
+        border-radius: 5px;
+    } 
+    .main .bt2:hover{
+        background-color: #dc5f5f;
+        transition: 0.5s;
+    }
+
+    /* main section */
+
+    /* about section */
+
+.about img{
+    -webkit-box-shadow: 3px 3px 33px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 33px 4px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 33px 4px rgba(0,0,0,0.75);
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progress{
+    background-color: #cdb8b8;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+    -webkit-box-shadow: inset 29px 25px 83px -146px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 29px 25px 83px -146px rgba(0,0,0,0.75);
+    box-shadow: inset 29px 25px 83px -146px rgba(0,0,0,0.75);
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+
+/* .progress  */
+.about p{
+    color: hsl(0, 0%, 0%);
+    padding: 5px;
+    /* justify-content: center; */
+    text-align: justify;
+}
+
+
+
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none; background-color: black;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid; background-color:transparent;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: #fefefe;
+    border: none;
+    transition: 0.5s;
+}
+
+/* services */
+
+.card{border: none;
+    outline: none;
+
+    -webkit-box-shadow: 29px 31px 96px -69px rgba(0,0,0,0.75);
+    -moz-box-shadow: 29px 31px 96px -69px rgba(0,0,0,0.75);
+    box-shadow: 29px 31px 96px -69px rgba(0,0,0,0.75);
+    Copy Text
+}
+
+
+
+    .card p{
+        color: #473434;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: #a09e9e;
+    color: #000;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+
+.card:hover .circle{
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+.porfolio ul li{
+    list-style: none;
+    background-color: #000;
+    padding: 5px 15px;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover{
+    -webkit-box-shadow: 17px 18px 126px -32px rgba(0,0,0,0.73);
+    -moz-box-shadow: 17px 18px 126px -32px rgba(0,0,0,0.73);
+    box-shadow: 17px 18px 126px -32px rgba(0,0,0,0.73);
+     transition: 0.5s;
+}
+
+.item span {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #0b0b0b;
+    font-size: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.item :before{
+    content: "" ;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e7d9d9a1;
+    opacity: 1;
+    position: absolute;
+}
+
+.item :hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+.circle:hover {
+    background-color: #000;
+    transition: 0.4s ;
+    color: #ffffff;
+
+
+}
+
+/* contact section */
+
+.contact .btn3{
+    background-color: #000;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+
+.btn3:hover{
+    background: white;
+    color: #000;
+    transform: 0.5s;
+    border: 1px solid black;
+}
+
+/* footter */
+
+.footer {
+    background-color: #161111
+    rgb(216, 176, 16)
+}
+
+
+
+
+
+    
+   
+   
+    
+   
+
